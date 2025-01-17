@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!-- JQuery -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css'
+        crossorigin='anonymous' />
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="ios" style="display: none;">
+            
+    </div>
+
+    <div class="android" style="display: none;">
+    </div>
+
+    <div class="notifyselect" style="display: none;">
+        <img class="selectbg" src="./img/selectbg.png" alt="" />
+        <div class="selecttxt">SETTINGS</div>
+        <div class="changebutton">
+            <input id="io" class="Switcher__checkbox sr-only" type="checkbox" checked>
+            <label class="Switcher" for="io">
+                <div id="androidButton" class="Switcher__trigger" data-value="ANDROID"></div>
+                <div id="iosButton" class="Switcher__trigger" data-value="İOS"></div>
+            </label>
+        </div>
+    </div>
+
+</body>
+
+</html>
